@@ -137,7 +137,7 @@ public class SceneBuilder {
         button = new Button(Application.Navigation.YES);
         button.setIcon(YES_BUTTON_ICON);
         button.setBorder(BorderFactory.createCompoundBorder(
-                new EmptyBorder(0, 24, 0, 0),
+                new EmptyBorder(0, 48, 0, 0),
                 BorderFactory.createEmptyBorder()));
         button.setContentAreaFilled(false);
         button.setFocusPainted(false);
@@ -148,7 +148,7 @@ public class SceneBuilder {
         button = new Button(Application.Navigation.NO);
         button.setIcon(NO_BUTTON_ICON);
         button.setBorder(BorderFactory.createCompoundBorder(
-                new EmptyBorder(0, 24, 0, 0),
+                new EmptyBorder(0, 48, 0, 0),
                 BorderFactory.createEmptyBorder()));
         button.setContentAreaFilled(false);
         button.setFocusPainted(false);
