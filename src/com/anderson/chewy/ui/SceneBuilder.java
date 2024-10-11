@@ -126,7 +126,7 @@ public class SceneBuilder {
         grid.gridx = grid.gridy = 0;
         grid.gridwidth = 2;
 
-        var header = new JLabel("How can we help?");
+        var header = new JLabel("Do you have a ticket?");
         header.setFont(HEADER_FONT);
         panel.add(header, grid);
 
